@@ -1,0 +1,8 @@
+<configuration>
+    <property name="driverClass" value="com.mysql.jdbc.Driver"></property>
+    <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/mybatis?characterEncoding=utf-8"></property>
+    <property name="username" value="root"></property>
+    <property name="password" value="123456"></property>
+
+    <mapper resource="mapper.xml"></mapper>
+</configuration>
